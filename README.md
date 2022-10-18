@@ -40,6 +40,16 @@ In `package.json` were added the following scripts:
   },
 ```
 
+## Testing dependencies
+The following dependencies were not installed but they can be installed for testing:
+- `@testing-library/react`
+- `@testing-library/jest-dom`
+- `@testing-library/user-event`
+
+```
+npm install -D @testing-library/react @testing-library/user-event @testing-library/jest-dom
+```
+
 # Setting eslint
 To initialize eslint you can use one of the following commands:
 ```
